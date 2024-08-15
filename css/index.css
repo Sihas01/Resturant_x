@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    font-size: 17px;
+}
+
+.list-item{
+    cursor: pointer;
+}
+
+
+.button-group{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 17px;
+}
+
+.btn-one{
+    background-color: blue;
+    padding: 8px 15px 8px 15px;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.image{
+    background-image: url("../images/imageOne.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.menu-section , .about-section{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+table, td, th{
+    border: 1px solid rgb(75, 73, 73);
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+table{
+    width: 100%;
+}
+
+
+table th{
+    background-color: rgb(23, 22, 22);
+    color: #ffffff;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.button-two{
+    background-color: blue;
+    padding: 8px 15px 8px 15px;
+    color: #ffffff;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.button-two a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.right-col{
+    background-image: url("../images/imageOne.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-color: rgb(23, 22, 22);
+    color: #ffffff;
+    padding: 12px 0 12px 0;
+    text-align: center;
+    font-weight: bold;
+}
